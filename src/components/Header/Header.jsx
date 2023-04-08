@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../assets/images/logo 1.png'
 import './Header.css'
 import { Link } from 'react-router-dom';
+import SearchBar from '../SearchBar/SearchBar';
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
                     <Link to='/'>
                         <img src={logo} alt='Electon Logo' />
                     </Link>
+                    <SearchBar />
                 </div>
                 <div className="header-links">
                     <Link className='header-link' to='/login'>
