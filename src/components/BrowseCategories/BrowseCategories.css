@@ -1,0 +1,23 @@
+.browse-categories-wrapper {
+    padding: 24px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: #EDA415;
+    cursor: pointer;
+}
+
+.browse-categories-wrapper h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.browse-categories-wrapper svg{
+    width: 24px;
+    height: auto;
+    color: #FFFFFF;
+}
