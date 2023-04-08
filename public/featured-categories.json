@@ -1,0 +1,21 @@
+[
+    {
+        "category": "speaker",
+        "picture": "https://i.ibb.co/fXsQ5FC/360-F-308133643-3g7-IEc-K63tyrq1-DQCOJe5w-Z1-Bqy-GOD4-I.jpg"
+    },
+    
+    {
+        "category": "laptop",
+        "picture": "https://i.ibb.co/bFr0CP4/camera-612x612.jpg"
+    },
+    
+    {
+        "category": "camera",
+        "picture": "https://i.ibb.co/zXJSBnw/laptop-612x612.jpg"
+    },
+    
+    {
+        "category": "jewelery",
+        "picture": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+    }    
+]
