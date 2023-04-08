@@ -1,10 +1,12 @@
-import React from 'react';
+import './Home.css'
+import FeaturedCategories from '../FeaturedCategories/FeaturedCategories';
 
 const Home = () => {
+    
     return (
-        <div>
-            <h3>home</h3>
-        </div>
+        <>
+            <FeaturedCategories />
+        </>
     );
 };
 
