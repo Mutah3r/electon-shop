@@ -57,7 +57,7 @@ const FeaturedCategories = () => {
                     { minWidth: 850, itemsToShow: 2 },
                     { minWidth: 1250, itemsToShow: 3 },
                 ]}
-                speed={400}
+                speed={600}
                 easing="linear"
             >
                 {

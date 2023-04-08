@@ -7,7 +7,7 @@ const FeaturedCategory = ( {cat} ) => {
         <div>
             <div className='carousel-slide'>
                 <div className="carousel-slide-content">
-                    <img src={picture} alt="" />
+                    <img src={picture} draggable={false} alt="" />
                     <h3>{category}</h3>
                 </div>
             </div>
