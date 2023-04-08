@@ -1,0 +1,37 @@
+.navbar {
+    background: #003F62;
+    padding: 22px;
+}
+
+.navbar .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440;
+    margin: 0 auto;
+}
+
+nav .logo-search-container {}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.header-link-icon {
+    height: 24px;
+    width: 24px;
+}
