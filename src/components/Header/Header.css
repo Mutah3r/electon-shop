@@ -1,17 +1,15 @@
-.navbar {
+.header {
     background: #003F62;
     padding: 22px;
 }
 
-.navbar .nav-wrapper {
+.header .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1440;
     margin: 0 auto;
 }
-
-nav .logo-search-container {}
 
 .header-links {
     display: flex;

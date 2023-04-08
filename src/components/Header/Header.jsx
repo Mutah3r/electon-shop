@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className='navbar'>
-            <div className="nav-wrapper">
+        <header className='header'>
+            <div className="header-wrapper">
                 <div className="logo-search-container">
                     <Link to='/'>
                         <img src={logo} alt='Electon Logo' />
@@ -31,7 +31,7 @@ const Header = () => {
                     </Link>
                 </div>
             </div>
-        </nav>
+        </header>
     );
 };
 
