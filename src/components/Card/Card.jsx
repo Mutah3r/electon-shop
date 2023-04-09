@@ -37,6 +37,9 @@ const Card = ({ product }) => {
                         {...ratings}
                     </span>
                 </div>
+                <div className="card-btn-container">
+                    <button className="add-to-cart">Add to cart</button>
+                </div>
             </div>
         </div>
     );

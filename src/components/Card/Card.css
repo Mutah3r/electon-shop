@@ -1,5 +1,5 @@
 .card-wrapper {
-    padding: 20px 15px;
+    padding: 20px 15px 15px 15px;
     border: 0.983537px solid #B6B6B6;
     border-radius: 19.6707px;
     display: flex;
@@ -71,4 +71,23 @@
 .card-text-container span svg {
     width: 15px;
     height: 15px;
+}
+
+.card-btn-container {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart {
+    margin-top: 10px;
+    background: #87BCD9;
+    border-radius: 19.6707px;
+    padding: 18px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272727;
+    border: none;
 }
