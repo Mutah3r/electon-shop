@@ -8,11 +8,13 @@ import Orders from './components/Orders/Orders'
 import Login from './components/Login/Login'
 import Blog from './components/Blog/Blog'
 import About from './components/About/About'
+import { getProducts } from './loader/getProducts'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    loader: getProducts,
     children: [
       {
         path: '/',
