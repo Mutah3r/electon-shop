@@ -1,0 +1,17 @@
+.popular-products-wrapper {
+    padding: 0 22px;
+    margin: 80px 0px;
+}
+.popular-products-wrapper h2 {
+    font-weight: 600;
+    font-size: 27.38px;
+    line-height: 41px;
+    color: #1B5A7D;
+    margin-bottom: 50px;
+}
+
+.popular-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+}
