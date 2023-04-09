@@ -32,7 +32,8 @@ const Banner = () => {
                             borderRadius: "50%",
                             border: '1px solid #ADADAD',
                             background: '#FFFFFF',
-                            margin: '0 5px'
+                            margin: '0 5px',
+                            cursor: 'pointer'
                         }
                     },
                     activeItemBtnProps: {
@@ -42,13 +43,15 @@ const Banner = () => {
                             borderRadius: "50%",
                             border: 0,
                             background: "#EDA415",
-                            margin: '0 5px'
+                            margin: '0 5px',
+                            cursor: 'pointer'
                         }
                     }
                 }}
+                
                 autoplay={true}
-                delay={1000}
-                speed={400}
+                autoplayDelay={2000}
+                speed={500}
                 easing="linear"
             >
                 {/* Banner 1 */}
